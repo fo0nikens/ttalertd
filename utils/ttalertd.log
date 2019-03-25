@@ -1,0 +1,16 @@
+2019-03-24-17:42:22.657 INFO Alert sent: Number of users: 1
+james logged on
+ 
+PID: 3084
+USER: james
+CPU: 20.0
+NAME: Web Content
+
+ 
+PID: 4028
+USER: james
+CPU: 6.7
+NAME: java
+
+
+2019-03-24-17:45%:23.264 ERROR Ensure utils/memory.json & utils/credentials.yml exist
