@@ -89,7 +89,7 @@ Intended for Linux distros, however only tested/developed only on Ubuntu 18.04
 <br><br>
 Remember to move credentials.yml into the utils/ directory.
 <br>
-```bash
+```
 ttalertd
 ├── credentials.yml
 ├── __init__.py
