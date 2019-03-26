@@ -86,5 +86,31 @@ RESET_INTERVAL. Once the RESET_INTERVAL is passed, all alerts are reset.
 Logs are appended to <code>utils/ttalertd.log</code> and <code>/var/log/supervisor/supervisord.log</code>
 <br><br
 Intended for Linux distros, however only tested/developed only on Ubuntu 18.04
+<br><br>
+Remember to move credentials.yml into the utils/ directory.
+<br>
+```bash
+ttalertd
+├── credentials.yml
+├── __init__.py
+├── LICENSE
+├── README.md
+├── sc.jpg
+├── supervisord.conf
+├── ttalertd.py
+└── utils
+    ├── compare.py
+    ├── credentials.yml
+    ├── __init__.py
+    ├── log.py
+    ├── memory.json
+    ├── read_write.py
+    ├── sms.py
+    ├── top.py
+    ├── ttalertd.log
+    └── who.py
+
+```
+
 <hr>
 Author: James Loye Colley MAR 2019
