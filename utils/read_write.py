@@ -34,6 +34,6 @@ def get_structure():
         "users": [],
         "load_averages": 0,
         "number_of_users": 0,
-        "cmds": [],
+        "names": [],
         "iterations": 0
     }
